@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+  <sysbo datasource="sms" name="MedicalSupRuleWhere" mainattr="WHERE_ID">
+    <mapingenty type="table">MEDICAL_SUP_RULE_WHERE</mapingenty>
+    <datafilter />
+    <attrlist>
+      <attr floatlength="0" name="WHERE_ID" maxlength="32" datatype="String" type="PK" remark="目录唯一编码">
+        <mapingcol datatype="VARCHAR2">WHERE_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="RULE_ID" maxlength="32" datatype="String" type="COL" remark="所属规则ID">
+        <mapingcol datatype="VARCHAR2">RULE_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="TAB_NAME" maxlength="32" datatype="String" type="COL" remark="表名">
+        <mapingcol datatype="VARCHAR2">TAB_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="COL_NAME" maxlength="50" datatype="String" type="COL" remark="过滤字段名称">
+        <mapingcol datatype="VARCHAR2">COL_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="COL_COMPARE_TYPE" maxlength="50" datatype="String" type="COL" remark="过滤条件比较符">
+        <mapingcol datatype="VARCHAR2">COL_COMPARE_TYPE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="COL_COMPARE_VALUE" maxlength="50" datatype="String" type="COL" remark="过滤条件比较值">
+        <mapingcol datatype="VARCHAR2">COL_COMPARE_VALUE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ORDER_NO" maxlength="3" datatype="Integer" type="COL" remark="序号">
+        <mapingcol datatype="NUMBER">ORDER_NO</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ORG_ID" maxlength="16" datatype="String" type="COL" remark="机构ID">
+        <mapingcol datatype="VARCHAR2">ORG_ID</mapingcol>
+      </attr>
+    </attrlist>
+    <relationlist />
+    <oplist />
+  </sysbo>
+</sysbolist>

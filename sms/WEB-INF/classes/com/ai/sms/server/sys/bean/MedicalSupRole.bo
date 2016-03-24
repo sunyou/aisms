@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+  <sysbo datasource="sms" name="MedicalSupRole" mainattr="ROLE_CODE">
+    <mapingenty type="table">MEDICAL_SUP_ROLE</mapingenty>
+    <datafilter />
+    <attrlist>
+      <attr floatlength="0" name="ROLE_CODE" maxlength="16" datatype="String" type="PK" remark="角色编码">
+        <mapingcol datatype="VARCHAR2">ROLE_CODE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ROLE_NAME" maxlength="64" datatype="String" type="COL" remark="角色名称">
+        <mapingcol datatype="VARCHAR2">ROLE_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ROLE_DESCRIBE" maxlength="128" datatype="String" type="COL" remark="角色描述">
+        <mapingcol datatype="VARCHAR2">ROLE_DESCRIBE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ORG_ID" maxlength="16" datatype="String" type="COL" remark="机构编码">
+        <mapingcol datatype="VARCHAR2">ORG_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="STATUS" maxlength="2" datatype="String" type="COL" remark="状态（0 启用 1停用）">
+        <mapingcol datatype="VARCHAR2">STATUS</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_STAFF" maxlength="32" datatype="String" type="COL" remark="创建人">
+        <mapingcol datatype="VARCHAR2">CREATE_STAFF</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="创建时间">
+        <mapingcol datatype="DATE">CREATE_TIME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="UPDATE_STAFF" maxlength="32" datatype="String" type="COL" remark="修改人">
+        <mapingcol datatype="VARCHAR2">UPDATE_STAFF</mapingcol>
+      </attr>
+      <attr floatlength="0" name="UPDATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="修改时间">
+        <mapingcol datatype="DATE">UPDATE_TIME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DATA_STATUS" maxlength="2" datatype="String" type="COL" remark="删除状态（0 正常 1 删除）">
+        <mapingcol datatype="VARCHAR2">DATA_STATUS</mapingcol>
+      </attr>
+    </attrlist>
+    <relationlist />
+    <oplist />
+  </sysbo>
+</sysbolist>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+  <sysbo datasource="sms" name="MedicalSupModuleRule" mainattr="MODULERULE_ID">
+    <mapingenty type="table">MEDICAL_SUP_RULEMODULE</mapingenty>
+    <datafilter />
+    <attrlist>
+      <attr floatlength="0" name="MODULE_ID" maxlength="50" datatype="String" type="COL" remark="模块名称">
+        <mapingcol datatype="VARCHAR2">MODULE_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="RULE_ID" maxlength="50" datatype="String" type="COL" remark="业务表名">
+        <mapingcol datatype="VARCHAR2">RULE_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ORG_ID" maxlength="16" datatype="String" type="COL" remark="机构ID">
+        <mapingcol datatype="VARCHAR2">ORG_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_STAFF" maxlength="32" datatype="String" type="COL" remark="创建人">
+        <mapingcol datatype="VARCHAR2">CREATE_STAFF</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="创建时间">
+        <mapingcol datatype="DATE">CREATE_TIME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="MODULERULE_ID" maxlength="32" datatype="String" type="PK">
+        <mapingcol datatype="VARCHAR2">MODULERULE_ID</mapingcol>
+      </attr>
+    </attrlist>
+    <relationlist />
+    <oplist />
+  </sysbo>
+</sysbolist>

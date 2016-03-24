@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+  <sysbo datasource="sms" name="MedicalSupDir" mainattr="DIR_ID">
+    <mapingenty type="table">MEDICAL_SUP_DIR</mapingenty>
+    <datafilter />
+    <attrlist>
+      <attr floatlength="0" name="DIR_ID" maxlength="32" datatype="String" type="PK" remark="目录唯一编码">
+        <mapingcol datatype="VARCHAR2">DIR_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DIR_NAME" maxlength="50" datatype="String" type="COL" remark="目录名称">
+        <mapingcol datatype="VARCHAR2">DIR_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="PARENT_ID" maxlength="32" datatype="String" type="COL" remark="上级编码">
+        <mapingcol datatype="VARCHAR2">PARENT_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DIR_TYPE" maxlength="8" datatype="String" type="COL" remark="目录类型 （0 目录 1 节点）">
+        <mapingcol datatype="VARCHAR2">DIR_TYPE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="MENU_TYPE" maxlength="2" datatype="String" type="COL" remark="菜单类型 （0 系统菜单 1 业务菜单）">
+        <mapingcol datatype="VARCHAR2">MENU_TYPE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DIR_ORDER" maxlength="8" datatype="Long" type="COL" remark="目录排序">
+        <mapingcol datatype="NUMBER">DIR_ORDER</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DIR_STATUS" maxlength="2" datatype="String" type="COL" remark="目录状态（0 生效 1 失效）">
+        <mapingcol datatype="VARCHAR2">DIR_STATUS</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_STAFF" maxlength="32" datatype="String" type="COL" remark="创建人ID">
+        <mapingcol datatype="VARCHAR2">CREATE_STAFF</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_STAFF_NAME" maxlength="64" datatype="String" type="COL" remark="创建人">
+        <mapingcol datatype="VARCHAR2">CREATE_STAFF_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="创建时间">
+        <mapingcol datatype="DATE">CREATE_TIME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="UPDATE_STAFF" maxlength="32" datatype="String" type="COL" remark="修改人id">
+        <mapingcol datatype="VARCHAR2">UPDATE_STAFF</mapingcol>
+      </attr>
+      <attr floatlength="0" name="UPDATE_STAFF_NAME" maxlength="32" datatype="String" type="COL" remark="修改人姓名">
+        <mapingcol datatype="VARCHAR2">UPDATE_STAFF_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="UPDATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="修改时间">
+        <mapingcol datatype="DATE">UPDATE_TIME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DATA_STATUS" maxlength="2" datatype="String" type="COL" remark="删除状态（0 正常 1 删除）">
+        <mapingcol datatype="VARCHAR2">DATA_STATUS</mapingcol>
+      </attr>
+      <attr floatlength="0" name="REMARK" maxlength="128" datatype="String" type="COL" remark="描述">
+        <mapingcol datatype="VARCHAR2">REMARK</mapingcol>
+      </attr>
+      <attr floatlength="0" name="RESULT_TABLE" maxlength="32" datatype="String" type="COL" remark="结果表名">
+        <mapingcol datatype="VARCHAR2">RESULT_TABLE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ORG_ID" maxlength="16" datatype="String" type="COL" remark="机构ID">
+        <mapingcol datatype="VARCHAR2">ORG_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="MENU_LEVEL" maxlength="20" datatype="String" type="COL" remark="目录级别">
+        <mapingcol datatype="VARCHAR2">MENU_LEVEL</mapingcol>
+      </attr>
+    </attrlist>
+    <relationlist />
+    <oplist />
+  </sysbo>
+</sysbolist>

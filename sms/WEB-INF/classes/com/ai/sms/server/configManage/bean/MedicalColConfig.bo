@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+  <sysbo datasource="sms" name="MedicalColConfig" mainattr="COL_NAME">
+    <mapingenty type="table">MEDICAL_COL_CONFIG</mapingenty>
+    <datafilter />
+    <attrlist>
+      <attr floatlength="0" name="COL_NAME" maxlength="50" datatype="String" type="PK" remark="字段名或指标别名">
+        <mapingcol datatype="VARCHAR2">COL_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="TAB_NAME" maxlength="32" datatype="String" type="COL" remark="归属表名">
+        <mapingcol datatype="VARCHAR2">TAB_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="COL_CHN_NAME" maxlength="50" datatype="String" type="COL" remark="指标或字段中文名">
+        <mapingcol datatype="VARCHAR2">COL_CHN_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="COL_DESC" maxlength="100" datatype="String" type="COL" remark="指标详细描述">
+        <mapingcol datatype="VARCHAR2">COL_DESC</mapingcol>
+      </attr>
+      <attr floatlength="0" name="COL_TYPE" maxlength="3" datatype="Integer" type="COL" remark="字段类型，标识是字段还是指标">
+        <mapingcol datatype="NUMBER">COL_TYPE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="COL_VALUE_EXPRESSION" maxlength="3" datatype="Integer" type="COL" remark="指标取值表达式（只针对指标）">
+        <mapingcol datatype="NUMBER">COL_VALUE_EXPRESSION</mapingcol>
+      </attr>
+      <attr floatlength="0" name="IS_WHERE_COL" maxlength="3" datatype="Integer" type="COL" remark="是否做条件过滤字段（只针对字段）1：是；其它值不是
+">
+        <mapingcol datatype="NUMBER">IS_WHERE_COL</mapingcol>
+      </attr>
+      <attr floatlength="0" name="IS_GROUPBY_COL" maxlength="3" datatype="Integer" type="COL" remark="是否可为数据分组字段（只针对字段）1：是；其它值不是
+">
+        <mapingcol datatype="NUMBER">IS_GROUPBY_COL</mapingcol>
+      </attr>
+      <attr floatlength="0" name="WHERE_INPUT_TYPE" maxlength="3" datatype="Integer" type="COL" remark="做为过滤条件时的输入方式">
+        <mapingcol datatype="NUMBER">WHERE_INPUT_TYPE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="SELECT_TYPE" maxlength="2" datatype="String" type="COL" remark="下拉字段type">
+        <mapingcol datatype="VARCHAR2">SELECT_TYPE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="COL_ORDER" maxlength="3" datatype="Integer" type="COL" remark="排序序号">
+        <mapingcol datatype="NUMBER">COL_ORDER</mapingcol>
+      </attr>
+      <attr floatlength="0" name="IS_DETAIL_COL" maxlength="3" datatype="Integer" type="COL" remark="是否可为详情页字段（只针对字段）1：是；其它值不是
+">
+        <mapingcol datatype="NUMBER">IS_DETAIL_COL</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ORG_ID" maxlength="16" datatype="String" type="COL" remark="机构ID">
+        <mapingcol datatype="VARCHAR2">ORG_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_STAFF" maxlength="32" datatype="String" type="COL" remark="创建人">
+        <mapingcol datatype="VARCHAR2">CREATE_STAFF</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="创建时间">
+        <mapingcol datatype="DATE">CREATE_TIME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="UPDATE_STAFF" maxlength="32" datatype="String" type="COL" remark="修改人">
+        <mapingcol datatype="VARCHAR2">UPDATE_STAFF</mapingcol>
+      </attr>
+      <attr floatlength="0" name="UPDATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="修改时间">
+        <mapingcol datatype="DATE">UPDATE_TIME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DATA_STATUS" maxlength="2" datatype="String" type="COL" remark="删除状态（0 正常 1 删除）">
+        <mapingcol datatype="VARCHAR2">DATA_STATUS</mapingcol>
+      </attr>
+    </attrlist>
+    <relationlist />
+    <oplist />
+  </sysbo>
+</sysbolist>

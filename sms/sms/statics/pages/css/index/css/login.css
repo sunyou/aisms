@@ -1,0 +1,67 @@
+
+.topBg{height:100px;}
+.topBg .top{ position:relative; }
+.topBg .top .logo{ position:absolute; top:10px; left:0;}
+.topBg .top .time{ position:absolute; top:40px; font-size:15px; right:0; color:#fff; }
+
+
+
+
+.loginContent{ position:relative; height:455px; width:100%;}
+
+/* banner */
+.banner{height:455px;overflow:hidden; position:relative; z-index:1; box-shadow:0 0 10px #154a83;  }
+.banner .d1{width:100%;height:455px;display:block;position:absolute;left:0px;top:0; z-index:1;}
+.banner .d2{width:100%;height:30px;clear:both;position:absolute;z-index:2;left:40px;top:400px;}
+.banner .d2 ul{float:left;position:absolute;left:40%;top:0;margin:0 0 0 -96px;display:inline;}
+.banner .d2 li{width:17px;height:15px;overflow:hidden;cursor:pointer;background:url(../images/img1.png) no-repeat center;float:left;margin:0 3px;display:inline;}
+.banner .d2 li.nuw{background:url(../images/img1_1.png) no-repeat center;}
+
+
+.loginInput{ box-shadow:0 0 10px #ddd; border-radius:5px 5px 0 0; overflow:hidden; position: absolute; z-index:10; width:380px;  height:420px; right:7%; top:10px;}
+.loginInput .loginBg{ background:#fff; width:430px; height:450px; position:absolute; bottom:0; right:0; filter:alpha(opacity=50); /*IE滤镜，透明度50%*/-moz-opacity:0.5; /*Firefox私有，透明度50%*/opacity:0.5;/*其他，透明度50%*/ z-index:2;}
+.loginInput .login{ z-index:3; color:#333; position:absolute; width:100%;}
+
+.loginInput .login h3{ background:#7bb8d9; height:40px; line-height:40px; color:#fff; text-indent:15px; letter-spacing:2px; font-size:18px; font-weight:500; width:100%;}
+.loginInput .login ul{ margin-left: 30px;}
+.loginInput .login ul span{ display:block; height:30px; line-height:30px; font-size:16px; }
+.loginInput .login ul li{ margin:10px auto; position: relative;}
+.loginInput .login ul li .Linput{ width:90%; border:1px solid #7bb8d8; height:30px; padding:5px 0; border-radius:3px;  text-indent:10px; font-size:14px;}
+.loginInput .login ul li a{ position: absolute; left:60%; bottom:7px ;}
+
+.loginInput .login .prompt{ color:#333;}
+.loginInput .login .prompt i{ background:url(../images/cancel.png) no-repeat; width:17px; height:17px; vertical-align:middle; margin-right:10px; display:inline-block;}
+.loginInput .login .enter a{ background:#7bb8d9; border-radius:5px; font-size:16px; padding:10px 0; text-align:center; width:90%; margin:35px 0 0 0; display:block; color:#fff;}
+.loginInput .login .enter a:hover{ background:#62abd1;}
+
+.bottomBg{  height:80px; text-align:center; padding-top:30px; }
+
+
+
+.copyright { text-align:center; color:#fff; padding-top:30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

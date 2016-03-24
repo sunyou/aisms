@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+  <sysbo datasource="sms" name="QryMedicalSupRuleMysql" mainattr="RULE_ID">
+    <mapingenty type="query">select a.*,
+       case when a.status=0 then '启用' else  '停用' end as status_str,
+
+       DATE_FORMAT(a.create_time, '%Y-%m-%d') AS create_time_str
+  from MEDICAL_SUP_RULE a</mapingenty>
+    <datafilter />
+    <attrlist>
+      <attr floatlength="0" name="RULE_ID" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">RULE_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DIR_ID" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">DIR_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="RULE_NAME" maxlength="50" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">RULE_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ORG_ID" maxlength="16" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">ORG_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_STAFF" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">CREATE_STAFF</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_STAFF_NAME" maxlength="64" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">CREATE_STAFF_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_TIME" maxlength="19" datatype="DateTime" type="COL">
+        <mapingcol datatype="DATETIME">CREATE_TIME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="UPDATE_STAFF" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">UPDATE_STAFF</mapingcol>
+      </attr>
+      <attr floatlength="0" name="UPDATE_STAFF_NAME" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">UPDATE_STAFF_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="UPDATE_TIME" maxlength="19" datatype="DateTime" type="COL">
+        <mapingcol datatype="DATETIME">UPDATE_TIME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DATA_STATUS" maxlength="2" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">DATA_STATUS</mapingcol>
+      </attr>
+      <attr floatlength="0" name="REMARK" maxlength="200" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">REMARK</mapingcol>
+      </attr>
+      <attr floatlength="0" name="STATUS" maxlength="2" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">STATUS</mapingcol>
+      </attr>
+      <attr floatlength="0" name="RULE_EXEC_FREQ" maxlength="2" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">RULE_EXEC_FREQ</mapingcol>
+      </attr>
+      <attr floatlength="0" name="STATUS_STR" maxlength="2" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">STATUS_STR</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_TIME_STR" maxlength="10" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">CREATE_TIME_STR</mapingcol>
+      </attr>
+    </attrlist>
+    <relationlist />
+    <oplist />
+  </sysbo>
+</sysbolist>

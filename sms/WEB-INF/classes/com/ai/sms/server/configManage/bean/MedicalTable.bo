@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+  <sysbo datasource="sms" name="MedicalTable" mainattr="TABLE_ID">
+    <mapingenty type="table">MEDICAL_TABLE</mapingenty>
+    <datafilter />
+    <attrlist>
+      <attr floatlength="0" name="TABLE_ID" maxlength="32" datatype="String" type="PK" remark="表ID">
+        <mapingcol datatype="VARCHAR2">TABLE_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="TABLE_ENNAME" maxlength="32" datatype="String" type="COL" remark="表英文名">
+        <mapingcol datatype="VARCHAR2">TABLE_ENNAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="TABLE_CHNAME" maxlength="32" datatype="String" type="COL" remark="表中文名">
+        <mapingcol datatype="VARCHAR2">TABLE_CHNAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="TABLE_TYPE" maxlength="2" datatype="String" type="COL" remark="表类型（0 业务表 1字典表）">
+        <mapingcol datatype="VARCHAR2">TABLE_TYPE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ORG_ID" maxlength="16" datatype="String" type="COL" remark="机构ID">
+        <mapingcol datatype="VARCHAR2">ORG_ID</mapingcol>
+      </attr>
+    </attrlist>
+    <relationlist />
+    <oplist />
+  </sysbo>
+</sysbolist>

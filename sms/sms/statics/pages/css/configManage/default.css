@@ -1,0 +1,163 @@
+.manage_group{ background-color: #fff;  }
+
+
+
+.topBg{height:79px;}
+.topBg .top{ position:relative; width: 98%; margin: 0 auto; }
+.topBg .top .logo{ position:absolute; top:10px; left:0;}
+.topBg .top .time{ position:absolute; top:40px; font-size:15px; right:0; color:#fff; }
+.topBg .top .personInfo{ position:absolute; top:30px; font-size:15px; right:0; color:#fff; line-height: 35px; }
+.topBg .top .personInfo a{ color:#fff; margin-left:10px; }
+.topBg .top .personInfo a:hover{ color:#ff0; }
+
+
+.menuBg{ background-color: #339ae3; height: 40px;}
+
+#navigation { }
+#navigation, #navigation li ul { list-style-type:none;}
+#navigation li { float:left; text-align:center; position:relative;}
+#navigation li a{ display:block; text-decoration:none; color:#fff; height:40px; line-height:40px;  background:#339ae3; width: 120px; font-size: 14px;}
+#navigation li a:hover { color:#fff; background:#238cd6;}
+#navigation li a.current { color:#fff; background:#238cd6;}
+#navigation li ul li.two a{ height: 35px; line-height: 35px; font-size: 13px; text-align: left; text-indent: 15px;}
+#navigation li ul li.two a:hover {   color:#fff; background:#238cd6;}
+#navigation li ul { display:none; position:absolute; top:40px; left:0;}
+#navigation li ul li ul { display: none; position: absolute; top: 0px; left: 120px; margin-top: 0; margin-left: 1px; width: 120px;}
+#navigation li ul li ul.three a{ width: 150px;}
+
+
+
+.quickNav{background-color: #fff; height: 35px; line-height: 35px; border-bottom: 1px solid #ddd;}
+.quickNav a{ color: #333;}
+.quickNav a:hover{ color: #f00;}
+
+.manage_group{ background-color: #fff;  }
+.manage_group .total-content{padding: 10px 20px; }
+.manage_group .title{  border-radius: 5px 5px 0 0; font-size: 15px; font-weight: 700; background-color: #339ae3; height: 35px; line-height: 35px; color: #fff; text-indent: 15px;   }
+
+
+
+.copyright { text-align:center; color:#fff; padding-top:30px;}
+
+
+
+/*左侧*/
+.content{ overflow:hidden;}
+.content .left{ width:20%; background:#fff; /*padding-bottom:80px;*/ margin-bottom:-300000px; padding-bottom:300000px; }
+.content .left dl{}
+.content .left dl h5{background:#fff; line-height:50px; font-weight:500; height:50px;font-size:18px; border-bottom:1px solid #dbdbdb;}
+.content .left dl h5 a{ color:#333; display:block;}
+.content .left dl h5 i{ font-style:normal;}
+
+/*左侧图标*/
+.l-icon1{ background-image:url(../images/configManage/Left_icon1.png); background-repeat:no-repeat; line-height:50px; height:50px; width:100%; display:block; float:left; text-indent:50px; background-position:16px 8px  }
+.l-icon1:hover,.l-icon1.current{ background-image:url(../images/configManage/Left_icon1_white.png); background-repeat:no-repeat; background-color:#1b86d2; color:#fff;}
+.content .left dl dt a{ position: relative; display:block; width:100%; border-bottom:1px solid #dbdbdb; color:#333; background: url(../images/configManage/marking1.png) no-repeat 25px 12px; height:34px; font-size:14px; line-height:34px; text-indent:50px; }
+.content .left dl dt a:hover,.content .left dl dd a.current{ background:url(../images/configManage/marking1.png) no-repeat 25px 12px #eeeeee;}
+.content .left dl dd a{ display:block; width:100%; border-bottom:1px solid #dbdbdb; color:#333; background: url(../images/configManage/marking3.png) no-repeat 60px 12px; height:34px; font-size:14px; line-height:34px; text-indent:70px; color:#999;}
+.content .left dl dd a:hover,.content .left dl dd a.current{ background:url(../images/configManage/marking3.png) no-repeat 60px 12px #eeeeee;}
+
+.leftSub{ position:absolute; left: 15%;background: #ddd;width: 100px; border: solid 1px #ddd;  }
+.leftSub a{ border-bottom: solid 1px #ddd; background:#fff;display: block; height: 30px; line-height: 30px;text-align: center; font-size: 14px; }
+.leftSub a:hover,.leftSub a.current{background: #339ae3; color: #fff;}
+
+.content .l_close{ background:#cccccc; width:13px; margin-bottom:-9999px;padding-bottom:9999px;}
+.content .l_close img{margin-top:200px;}
+
+.content .right{ width:75%; }
+.content .right .tab{background:url(../images/configManage/tab_bg.gif) repeat-x; height:39px; line-height:39px; width:100%; }
+.content .right .tab li{ float:left;  /*+width:12%;*/  border-right:#c9c9c9 solid 1px;background:url(../images/configManage/tab_bg.gif) repeat-x;  padding:0 20px;  display:block; position:relative;}
+.content .right .tab a{ font-size:16px; color:#777777; }
+.content .right .tab li:hover,.content .right .tab .current { background:#eee; color:#777777;}
+.content .right .tab button{ border:0; background:url(../images/configManage/close.png) no-repeat; height:19px; width:19px; display:inline-block; margin-left:15px; cursor:pointer; outline:none; }
+.content .right .tab .menuClose{ position:absolute; right:3px;top:11px;  background:url(../images/configManage/close.png) no-repeat; height:19px; width:19px; display: block;}
+
+
+
+/*form表单*/
+.inputW150{ width:150px; height:30px; line-height:30px; background:url(../images/configManage/inputBg.jpg) repeat-x; border-top:1px solid #c6ccda; border-left:1px solid #c6ccda; border-right:1px solid #dfe4f1; border-bottom:1px solid #dfe4f1; text-indent:10px; font-size:16px; color:#f60; font-weight:700;  }
+.inputW160{ width:160px; height:30px; line-height:30px; background:url(../images/configManage/inputBg.jpg) repeat-x; border-top:1px solid #c6ccda; border-left:1px solid #c6ccda; border-right:1px solid #dfe4f1; border-bottom:1px solid #dfe4f1; text-indent:10px; font-size:14px; color:#427fb8; font-weight:500;  }
+.inputW120{ width:120px; height:30px; line-height:30px; background:url(../images/configManage/inputBg.jpg) repeat-x; border-top:1px solid #c6ccda; border-left:1px solid #c6ccda; border-right:1px solid #dfe4f1; border-bottom:1px solid #dfe4f1; text-indent:10px; font-size:14px; color:#427fb8; font-weight:500;  }
+.inputW200{ width:200px; height:30px; line-height:30px; background:url(../images/configManage/inputBg.jpg) repeat-x; border-top:1px solid #c6ccda; border-left:1px solid #c6ccda; border-right:1px solid #dfe4f1; border-bottom:1px solid #dfe4f1; text-indent:10px; font-size:14px; color:#427fb8; font-weight:500;  }
+.inputW400{ width:400px; height:30px; line-height:30px; background:url(../images/configManage/inputBg.jpg) repeat-x; border-top:1px solid #c6ccda; border-left:1px solid #c6ccda; border-right:1px solid #dfe4f1; border-bottom:1px solid #dfe4f1; text-indent:10px; font-size:14px; color:#427fb8; font-weight:500;  }
+.textareaH200{ width:400px; height:80px; line-height:30px; border-top:1px solid #c6ccda; border-left:1px solid #c6ccda; border-right:1px solid #dfe4f1; border-bottom:1px solid #dfe4f1; text-indent:10px; font-size:14px; color:#427fb8; font-weight:500;  }
+
+.select{  height:30px; line-height:30px; background:url(../images/configManage/inputBg.jpg) repeat-x; border-top:1px solid #c6ccda; border-left:1px solid #c6ccda; border-right:1px solid #dfe4f1; border-bottom:1px solid #dfe4f1;font-size:14px; color:#427fb8; font-weight:500;  }
+.tmshop{/*border:1px solid #dfe4f1; background:#fff;*/ margin-top:20px;  }
+.tmshop h1{ background:#43c8bf; border-top-left-radius:10px; border-top-right-radius:10px; height:34px; color:#fff; font-size:16px; text-indent:10px; line-height:34px;}
+.tmshop .r_list{ width:95%; margin:0px auto;}
+
+
+/*二级标题*/
+.tmshop .r_list h2{  border-bottom: 3px solid #e6e6e6; height: 40px; width:100%;}
+.tmshop .r_list h2 span{display: inline; float: left; font-size: 16px; height: 40px; line-height: 40px; padding-right:20px;  }
+.tmshop .r_list h2 span.active{border-bottom: 3px solid #2361be; color: #2361be; font-weight:bold; }
+.tmshop .r_list h2 em{ float:right;}
+
+/*搜索*/
+.tmshop .r_list .listTable{ margin:0 10px 10px 0 ; width:100%; background:#fff; border:#ddd solid 1px; overflow-x: auto; clear:both; font-size:14px; }
+.tmshop .r_list .listTable th{height: 18px;padding: 10px 10px; color:#777; font-weight:500; border-bottom: 1px solid #eee; }
+.tmshop .r_list .listTable td{border-bottom: 1px solid #eee; line-height: 30px; padding: 10px 3px; vertical-align: top; color:#444;}
+.tmshop .r_list .listTable th.l{text-align: left;}
+.tmshop .r_list .listTable th.c{text-align: center;}
+.tmshop .r_list .listTable th.r{text-align: right;}
+.tmshop .r_list .listTable strong{ color:#f00;}
+.tmshop .r_list .listTable button{ background:#339ae3; margin-right:15px; padding:5px 20px; color:#fff; font-size:16px; border-radius:3px;  display:inline-block; border:none; cursor:pointer; outline:none; }
+.tmshop .r_list .listTable button:hover{ background:#258dd7;}
+.tmshop .r_list .listTable td.n_b_b{ border-bottom:none;}
+.tmshop .r_list .listTable th.n_b_b{ border-bottom:none;}
+
+
+/*库存数量详情 表单*/
+.tmshop .r_list .listTable2 button{ background:#339ae3; padding:3px 18px;  color:#fff; font-size:16px; border-radius:3px; display:inline-block; border:none; cursor:pointer; outline:none; margin-right:15px; }
+.tmshop .r_list .listTable2 button:hover{ background:#258dd7;}
+
+
+
+/*分页*/
+.page-box { line-height:32px;margin:20px 30px 10px 0; font-size:14px; height:60px;}
+.page-box ul.page li{ float:left; height:30px; line-height:30px; margin-right:10px;  }
+.page-box ul.page li a { display:block; padding:0 12px; border:1px solid #ddd; background:url(../images/configManage/page.gif) 0 -23px repeat-x; }
+.page-box ul.page li.homenone { display:block; padding:0 12px; border:1px solid #ddd; background:url(../images/configManage/page.gif) 0 -23px repeat-x; color:#ccc; }
+.page-box ul.page li a:hover {  border:1px solid #258dd7; text-decoration:none; color:#4482bb; }
+.page-box ul.page li.on { padding:0 12px; background: #339ae3; color:#fff; border:1px solid #258dd7; }
+.page-box ul.page li.next a { width:6px; height:11px; padding:10px 15px; border:1px solid #ddd; cursor:pointer;  background:url(../images/configManage/page.gif) 3px -54px no-repeat; overflow:hidden;  }
+.page-box ul.page li.next a:hover { background:url(../images/configManage/page.gif) 3px -80px no-repeat; }
+.page-box ul.page li.up a { width:6px; height:11px; padding:10px 15px; border:1px solid #ddd; cursor:pointer;  background:url(../images/configManage/page.gif) 3px -107px no-repeat; overflow:hidden;  }
+.page-box ul.page li.up a:hover { background:url(../images/configManage/page.gif) 3px -133px no-repeat; }
+.page-box ul.page li.noneup { width:6px; height:11px; padding:10px 15px; border:1px solid #ddd; background:url(../images/configManage/page.gif) 3px -166px no-repeat; overflow:hidden;  }
+.page-box ul.page li.nonedown { width:6px; height:11px; padding:10px 15px; border:1px solid #ddd; background:url(../images/configManage/page.gif) 3px -192px no-repeat; overflow:hidden;  }
+.ipt-page { width:35px; height:23px; border:1px solid #4380b9; text-align:center;  }
+.btn-page { width:40px; height:23px;  border:1px solid #4380b9; cursor:pointer; background:url(../images/configManage/page.gif)  repeat-x; margin-top:3px;}
+.page-box button{background:#43c8bf; outline:none; cursor:pointer; padding:3px 18px;  border:0; font-size:16px; display: inline-block ; border-radius:3px; color:#fff; }
+.page-box button:hover{ background:#e39c57;}
+.page-box input{ border-top:1px solid #aeadad; border-left:1px solid #aeadad;border-right:1px solid #dfdfdf; border-bottom:1px solid #dfdfdf; height:20px; padding:5px 0; margin-bottom:10px; text-indent:3px;  width:40px;}
+
+
+
+
+/*药店详情 表单*/
+.listTable3{ margin:auto; background:#fff; width:100%; border-collapse: separate; border-left: 1px solid #eee; border-top: 1px solid #eee; overflow-x: auto; clear:both; font-size:14px; }
+.listTable3 th{border-bottom: 1px solid #eee; border-right: 1px solid #eee;height: 18px;padding: 10px 10px;text-align: center; background:#f8f8f8; color:#777; font-weight:700; border-bottom: 1px solid #eee; }
+.listTable3 td{border-bottom: 1px solid #eee; border-right: 1px solid #eee; line-height: 22px; padding: 10px 3px; /*text-align:center;*/ vertical-align: top; color:#444;} /*.listTable3 td input{ border: solid 1px #ddd; background:#ddd; width:18px; height:18px; border:0; color:#099;}*/
+.listTable3 td span{ color:#F00; padding-left:18%;}
+
+.listTable3 th.l{text-align: left;}
+.listTable3 th.c{text-align: center;}
+.listTable3 td.c{text-align: center;}
+.listTable3 td.r{text-align: right;}
+.listTable3 th.r{text-align: right;}
+.listTable3 strong{ color:#f00;}
+.listTable3 button{ background:#43c8bf; padding:3px 18px;  color:#fff; font-size:16px; border-radius:3px; display:inline-block; border:none; cursor:pointer; outline:none; margin-right:15px; }
+.listTable3 button:hover{ background:#e39c57;}
+.listTable3 button.current{ background:#999;}
+
+.button{ background:#339ae3; padding:3px 18px;  color:#fff; font-size:16px; border-radius:3px; display:inline-block; border:none; cursor:pointer; outline:none; margin-right:15px; }
+.button:hover{ background:#258dd7;}
+
+
+
+
+
+
+

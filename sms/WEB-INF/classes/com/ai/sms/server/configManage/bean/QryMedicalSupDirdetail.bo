@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+  <sysbo datasource="sms" name="QryMedicalSupDirdetail" mainattr="DIRDETAIL_ID">
+    <mapingenty type="query">select a.*,b.col_chn_name,b.where_input_type,b.select_type from medical_sup_dirdetail a,MEDICAL_COL_CONFIG b where a.tab_name=b.tab_name and a.col_name=b.col_name</mapingenty>
+    <datafilter />
+    <attrlist>
+      <attr floatlength="0" name="DIRDETAIL_ID" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">DIRDETAIL_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DIR_ID" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">DIR_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="TAB_NAME" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">TAB_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="COL_NAME" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">COL_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="IS_ORDER" maxlength="2" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">IS_ORDER</mapingcol>
+      </attr>
+      <attr floatlength="0" name="IS_SELECT" maxlength="2" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">IS_SELECT</mapingcol>
+      </attr>
+      <attr floatlength="0" name="COMPARE_CHAR" maxlength="8" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">COMPARE_CHAR</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DIRDETAIL_ORDER" maxlength="22" datatype="Long" type="COL">
+        <mapingcol datatype="NUMBER">DIRDETAIL_ORDER</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ORG_ID" maxlength="16" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">ORG_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="COL_CHN_NAME" maxlength="50" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">COL_CHN_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="WHERE_INPUT_TYPE" maxlength="22" datatype="Long" type="COL">
+        <mapingcol datatype="NUMBER">WHERE_INPUT_TYPE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="SELECT_TYPE" maxlength="50" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">SELECT_TYPE</mapingcol>
+      </attr>
+    </attrlist>
+    <relationlist />
+    <oplist />
+  </sysbo>
+</sysbolist>

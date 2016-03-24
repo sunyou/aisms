@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+  <sysbo datasource="sms" name="MedicalSupAccountRole" mainattr="ACCOUNTROLE_ID">
+    <mapingenty type="table">MEDICAL_SUP_ACCOUNTROLE</mapingenty>
+    <datafilter />
+    <attrlist>
+      <attr floatlength="0" name="ACCOUNTROLE_ID" maxlength="32" datatype="String" type="PK" remark="序号">
+        <mapingcol datatype="VARCHAR2">ACCOUNTROLE_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ACCOUNT_CODE" maxlength="16" datatype="String" type="COL" remark="账号编码">
+        <mapingcol datatype="VARCHAR2">ACCOUNT_CODE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ROLE_CODE" maxlength="16" datatype="String" type="COL" remark="角色编码">
+        <mapingcol datatype="VARCHAR2">ROLE_CODE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ORG_ID" maxlength="16" datatype="String" type="COL" remark="机构ID">
+        <mapingcol datatype="VARCHAR2">ORG_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="创建时间">
+        <mapingcol datatype="DATE">CREATE_TIME</mapingcol>
+      </attr>
+    </attrlist>
+    <relationlist />
+    <oplist />
+  </sysbo>
+</sysbolist>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+  <sysbo datasource="sms" name="MedicalSupOrg" mainattr="ORG_ID">
+    <mapingenty type="table">MEDICAL_SUP_ORG</mapingenty>
+    <datafilter />
+    <attrlist>
+      <attr floatlength="0" name="ORG_ID" maxlength="16" datatype="String" type="PK" remark="机构编码">
+        <mapingcol datatype="VARCHAR2">ORG_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ORG_NAME" maxlength="32" datatype="String" type="COL" remark="机构名称">
+        <mapingcol datatype="VARCHAR2">ORG_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="PROVINCE_CODE" maxlength="8" datatype="String" type="COL" remark="归属省份">
+        <mapingcol datatype="VARCHAR2">PROVINCE_CODE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CITY_CODE" maxlength="8" datatype="String" type="COL" remark="归属地市">
+        <mapingcol datatype="VARCHAR2">CITY_CODE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="COUNTY_CODE" maxlength="8" datatype="String" type="COL" remark="归属区县">
+        <mapingcol datatype="VARCHAR2">COUNTY_CODE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DIRECTOR" maxlength="32" datatype="String" type="COL" remark="负责人">
+        <mapingcol datatype="VARCHAR2">DIRECTOR</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CONTACTS" maxlength="32" datatype="String" type="COL" remark="联系人">
+        <mapingcol datatype="VARCHAR2">CONTACTS</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CONTACTS_PHONE" maxlength="16" datatype="String" type="COL" remark="联系电话">
+        <mapingcol datatype="VARCHAR2">CONTACTS_PHONE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ADDRESS" maxlength="128" datatype="String" type="COL" remark="详细地址">
+        <mapingcol datatype="VARCHAR2">ADDRESS</mapingcol>
+      </attr>
+      <attr floatlength="0" name="REMARK" maxlength="256" datatype="String" type="COL" remark="备注">
+        <mapingcol datatype="VARCHAR2">REMARK</mapingcol>
+      </attr>
+      <attr floatlength="0" name="STATUS" maxlength="2" datatype="String" type="COL" remark="状态（0 启用 1停用）">
+        <mapingcol datatype="VARCHAR2">STATUS</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_STAFF" maxlength="32" datatype="String" type="COL" remark="创建人">
+        <mapingcol datatype="VARCHAR2">CREATE_STAFF</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="创建时间">
+        <mapingcol datatype="DATE">CREATE_TIME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="UPDATE_STAFF" maxlength="32" datatype="String" type="COL" remark="修改人">
+        <mapingcol datatype="VARCHAR2">UPDATE_STAFF</mapingcol>
+      </attr>
+      <attr floatlength="0" name="UPDATE_TIME" maxlength="20" datatype="DateTime" type="COL" remark="修改时间">
+        <mapingcol datatype="DATE">UPDATE_TIME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DATA_STATUS" maxlength="2" datatype="String" type="COL" remark="删除状态（0 正常 1 删除）">
+        <mapingcol datatype="VARCHAR2">DATA_STATUS</mapingcol>
+      </attr>
+    </attrlist>
+    <relationlist />
+    <oplist />
+  </sysbo>
+</sysbolist>

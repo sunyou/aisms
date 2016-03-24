@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+  <sysbo datasource="sms" name="QryMedicalSupDirMysql" mainattr="DIR_ID">
+    <mapingenty type="query">select a.*,
+    
+       DATE_FORMAT(A.create_time,'%Y-%m-%d %H:%i:%S') AS create_time_str,
+       CASE WHEN a.dir_status='0' THEN '启动' ELSE '停用' END AS dir_status_str
+ 
+  from MEDICAL_SUP_DIR a</mapingenty>
+    <datafilter />
+    <attrlist>
+      <attr floatlength="0" name="DIR_ID" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">DIR_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DIR_NAME" maxlength="50" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">DIR_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="PARENT_ID" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">PARENT_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DIR_TYPE" maxlength="8" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">DIR_TYPE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="MENU_TYPE" maxlength="2" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">MENU_TYPE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DIR_ORDER" maxlength="9" datatype="Long" type="COL">
+        <mapingcol datatype="DECIMAL">DIR_ORDER</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DIR_STATUS" maxlength="2" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">DIR_STATUS</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_STAFF" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">CREATE_STAFF</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_STAFF_NAME" maxlength="64" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">CREATE_STAFF_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_TIME" maxlength="19" datatype="DateTime" type="COL">
+        <mapingcol datatype="DATETIME">CREATE_TIME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="UPDATE_STAFF" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">UPDATE_STAFF</mapingcol>
+      </attr>
+      <attr floatlength="0" name="UPDATE_STAFF_NAME" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">UPDATE_STAFF_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="UPDATE_TIME" maxlength="19" datatype="DateTime" type="COL">
+        <mapingcol datatype="DATETIME">UPDATE_TIME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DATA_STATUS" maxlength="2" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">DATA_STATUS</mapingcol>
+      </attr>
+      <attr floatlength="0" name="REMARK" maxlength="128" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">REMARK</mapingcol>
+      </attr>
+      <attr floatlength="0" name="RESULT_TABLE" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">RESULT_TABLE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ORG_ID" maxlength="16" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">ORG_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="MENU_LEVEL" maxlength="20" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">MENU_LEVEL</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_TIME_STR" maxlength="24" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">CREATE_TIME_STR</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DIR_STATUS_STR" maxlength="2" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR">DIR_STATUS_STR</mapingcol>
+      </attr>
+    </attrlist>
+    <relationlist />
+    <oplist />
+  </sysbo>
+</sysbolist>

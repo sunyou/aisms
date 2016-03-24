@@ -1,0 +1,55 @@
+
+.topBg{height:100px;}
+.topBg .top{ position:relative; }
+.topBg .top .logo{ position:absolute; top:10px; left:0;}
+.topBg .top .time{ position:absolute; top:40px; font-size:15px; right:0; color:#fff; }
+.topBg .top .personInfo{ position:absolute; top:30px; font-size:15px; right:0; color:#fff; line-height: 35px; }
+.topBg .top .personInfo a{ color:#fff; margin-left:10px; }
+.topBg .top .personInfo a:hover{ color:#ff0; }
+
+.i-content{}
+.timeAndEnter{ padding-top:20px; margin-bottom: 15px;}
+.timeAndEnter .StatisticalTime{ font-size: 15px; color: #fff;}
+.timeAndEnter .enterSystem{ font-size: 18px; color: #fff;  border:1px solid #1276e2; background-color: #fff; border-radius: 6px;  box-shadow:2px 2px 10px #0d6e89; text-indent: 30px; overflow: hidden; }
+.timeAndEnter .enterSystem a{ display: block; background-image: url(../images/arrow1.png) ; background-repeat: no-repeat; background-position: 12px 7px; color: #0d71e2;  padding:8px 20px;}
+.timeAndEnter .enterSystem a:hover{background-image: url(../images/arrow1.png) ;  background-color: #daf7fe;}
+
+.statistical{}
+.statistical dl{box-shadow:2px 2px 10px #6594ac; }
+.statistical dl dt{ font-size: 20px; color: #fff; font-weight: 700; height: 90px; line-height: 90px; }
+.statistical dl dt i{ margin-left:10px;}
+.statistical dl dd{ height:290px; overflow: hidden; }
+.statistical dl dd li{ font-size: 15px; color: #666; border-bottom: 1px solid #e5ede1; padding:12px 8px;  }
+.statistical dl dd li label{ color: #333; margin-right: 10px; width: 120px; display: inline-block; text-align: right; border-right: 1px solid #e5ede1;}
+.statistical dl dd strong{ color: #f00; font-size: 15px; padding:0 4px;}
+
+
+
+
+.copyright { text-align:center; color:#fff; padding-top:30px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

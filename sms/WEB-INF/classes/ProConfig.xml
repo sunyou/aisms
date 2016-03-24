@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="GB2312"?>
+<proconfig>
+    <DataSrcList>
+        <DataSrc> 
+            <name>sms</name>
+            <type>DBCP</type>
+           
+            <dbType>MYSQL</dbType>
+            <srcUrl>jdbc:mysql://10.1.235.97:4001/sms?useUnicode=true&amp;characterEncoding=utf-8</srcUrl>
+            <minLimit>0</minLimit>
+            <maxLimit>5</maxLimit>
+            <userName>sms</userName>
+            <password>{o}umsmsguirt12s</password>
+            <propString>maxWait=3000;maxIdle=50</propString>
+        </DataSrc>
+
+    </DataSrcList>
+    <transactionlist default-transaction="local" independence-transaction="local"
+                     container-implclass="com.ai.appframe2.transaction.TransactionLocal">
+    	<transaction name="local" implclass="com.ai.appframe2.transaction.TransactionLocal"  default-datasource="sms">
+    		<DataSrcLink ailas-name="sms" actul-name="sms"></DataSrcLink>
+    	</transaction>
+    </transactionlist>
+
+    <service-mapping>
+        <service name="com.ai.sms"
+                 service-type="singleton" transaction-name="local" transaction-type="join" datasource-name="sms"/>
+    </service-mapping>
+
+</proconfig>

@@ -1,0 +1,137 @@
+@charset "gb2312";
+/* CSS Document */
+body,html{     background-image: url("../../images/bigscreen/xk.jpg");  background-repeat: no-repeat;    background-size: cover;}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend{margin:0;padding:0;}
+body,button,input,select,textarea{font: 12px/1.5 arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+ul,ol{list-style:none;}
+a:link ,a:visited { color: #0030ff; text-decoration: none; }
+a:hover { color: #f00; text-decoration: underline;  }
+.wrap100 { width: 100%; margin: 0 auto;  }
+.wrap { width: 1000px; margin: 0 auto;height:100%;  }
+.wrap700 { width: 700px; margin: 0 auto;height:100%;  }
+img { border:0;}
+h1 { color:#0066FF; padding: 0; margin: 0; font-size: 12px; font-weight: bold;}
+.clear { clear: both;}
+.fl { float:left;}
+.fr { float:right;}
+
+.w1600_h900{ width:1600px; height:900px; overflow:hidden;} /*宽1600高900*/
+.w400_h300{ width:400px; height:300px; overflow:hidden;} /*宽400高300*/
+.w800_h300{ width:800px; height:300px; overflow:hidden;} /*宽800高300*/
+.w1200_h300{ width:1200px; height:300px; overflow:hidden;} /*宽1200高300*/
+.w1600_h300{ width:1600px; height:300px; overflow:hidden;} /*宽1600高300*/
+.w400_h600{ width:400px; height:600px; overflow:hidden;} /*宽400高600*/
+.w800_h600{ width:800px; height:600px; overflow:hidden;} /*宽800高600*/
+.w1200_h600{ width:1200px; height:600px; overflow:hidden;} /*宽1200高600*/
+.w1600_h600{ width:1200px; height:600px; overflow:hidden;} /*宽1600高600*/
+.w196_h164{ width:196px; height:150px; overflow:hidden;} /*宽1600高600*/
+
+
+
+.bigscreen{  color:#fff;   }
+.bigscreen .title{background: #02113c; width: 100%; position: relative; height: 80px; overflow: hidden; z-index: 3; text-align: center; -webkit-box-shadow:0 0 10px #021a44; -moz-box-shadow:0 0 10px #021a44; box-shadow:0 0 10px #021a44; }
+.bigscreen .title h1{color:#fff; height:80px; line-height:80px; font-size:2.5em; text-indent:10px; }
+.bigscreen .title h1 span{ color:#ddd; font-size:0.8em; margin-left:20px;}
+
+.menu{ margin-top:200px; }
+.menu li{  margin-right:15px; margin-top:10px; }
+.menu li a{ display:block; text-align:center; padding:6px 10px; height:50px; line-height:30px;  color: #73a7ff; border:1px solid #022881;font-size:16px; border-radius:5px; text-decoration:none;}
+.menu li a:hover,.menu li a.current{ background:#021e4d; color: #fff;}
+
+
+
+
+
+.listTable{ margin: 0 auto; width:100%; height: 100%; border-collapse: separate; overflow-x: auto; clear:both; border-left: 1px solid #022881;   border-top: 1px solid #022881; }
+
+.listTable th{  color:#73a7ff; font-weight:500; border-bottom: 1px solid #022881; border-right: 1px solid #022881; font-size:1.6em;  padding: 10px; text-align: center;}
+.listTable a{ color:#a7a7a7;}
+.listTable td{border-bottom: 1px solid #022881; border-right: 1px solid #022881; font-size:16px; padding:5px 10px;  vertical-align: top; color:#c1c1c1;}
+.listTable th.l{text-align: left;}
+.listTable td.l{text-align: left;}
+.listTable th.c{text-align: center;}
+.listTable th.r{text-align: right;}
+.listTable strong{ color:#f60;}
+.listTable td label{ width:100px; text-align: right; font-weight: normal;}
+.listTable button{ background:#ea8420; margin-right:5px; padding:8px 20px; color:#fff; font-size:16px; border-radius:3px;  display:inline-block; border:none; cursor:pointer; outline:none; }
+.listTable button:hover{ background:#e39c57;}
+.listTable td.n_b_b{ border-bottom:none;}
+.listTable th.n_b_b{ border-bottom:none;}
+
+.copyright{ text-align: center; color:#ddd;}
+
+
+
+
+
+
+.content{ position: absolute; z-index: 2;}
+.content .left{ text-align: center;  }
+.content .left .map{  margin-top:10px;  }
+.content .left .map .mapPhoto{ position: relative; width: 100%; overflow: hidden;}
+.content .left .map .mapPhoto .text1{position: absolute; left:5%; top:5%;  color: #02113c; font-size: 14px;  }
+/*.content .left .map .mapPhoto .text2{position: absolute; left:210px; top:20px;  color: #02113c; font-size: 14px;  }*/
+/*.content .left .map .mapPhoto .text3{position: absolute; left:400px; top:40px;  color: #02113c; font-size: 14px;  }*/
+/*.content .left .map .mapPhoto .text4{position: absolute; left:50px; top:200px;  color: #02113c; font-size: 14px;  }*/
+/*.content .left .map .mapPhoto .text5{position: absolute; left:500px; top:180px;  color: #02113c; font-size: 14px;  }*/
+/*.content .left .map .mapPhoto .text6{position: absolute; left:270px; top:285px;  color: #02113c; font-size: 14px;  }*/
+.content .left .map .mapPhoto .text7{position: absolute; left:70px; top:330px;  color: #02113c; font-size: 14px;  }
+.content .left .map .mapPhoto .text8{position: absolute; left:580px; top:300px;  color: #02113c; font-size: 14px;  }
+/*.content .left .map .mapPhoto .text9{position: absolute; left:60px; top:450px;  color: #02113c; font-size: 14px;  }*/
+/*.content .left .map .mapPhoto .text10{position: absolute; left:555px; top:410px;  color: #02113c; font-size: 14px;  }*/
+/*.content .left .map .mapPhoto .text11{position: absolute; left:35px; top:575px;  color: #02113c; font-size: 14px;  }*/
+/*.content .left .map .mapPhoto .text12{position: absolute; left:220px; top:575px;  color: #02113c; font-size: 14px;  }*/
+/*.content .left .map .mapPhoto .text13{position: absolute; left:410px; top:570px;  color: #02113c; font-size: 14px;  }*/
+/*.content .left .map .mapPhoto .text14{position: absolute; left:560px; top:540px;  color: #02113c; font-size: 14px;  }*/
+/*.content .left .map .mapPhoto .text15{position: absolute; left:50px; top:20px;  color: #02113c; font-size: 14px;  }*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+.content .left .map .mapPhoto .textBg1{position: absolute; left:10px; top:40px;background: #fff; border:3px solid #02113c; padding:10px; filter:alpha(opacity=60); *//*IE滤镜，透明度50%*//*    -moz-opacity:0.6; *//*Firefox私有，透明度50%*//*    opacity:0.6;*//*其他，透明度50%*//* border-radius: 10px;  }
+.content .left .map .mapPhoto .textBg2{position: absolute; left:280px; top:70px;background: #fff; border:3px solid #02113c; padding:10px; filter:alpha(opacity=60); *//*IE滤镜，透明度50%*//*    -moz-opacity:0.6; *//*Firefox私有，透明度50%*//*    opacity:0.6;*//*其他，透明度50%*//* border-radius: 10px;  }
+.content .left .map .mapPhoto .textBg3{position: absolute; left:150px; top:80px;background: #fff; border:3px solid #02113c; padding:10px; filter:alpha(opacity=60); *//*IE滤镜，透明度50%*//*    -moz-opacity:0.6; *//*Firefox私有，透明度50%*//*    opacity:0.6;*//*其他，透明度50%*//* border-radius: 10px;  }
+.content .left .map .mapPhoto .textBg4{position: absolute; left:120px; top:220px;background: #fff; border:3px solid #02113c; padding:10px; filter:alpha(opacity=60); *//*IE滤镜，透明度50%*//*    -moz-opacity:0.6; *//*Firefox私有，透明度50%*//*    opacity:0.6;*//*其他，透明度50%*//* border-radius: 10px;  }
+.content .left .map .mapPhoto .textBg5{position: absolute; left:320px; top:200px;background: #fff; border:3px solid #02113c; padding:10px; filter:alpha(opacity=60); *//*IE滤镜，透明度50%*//*    -moz-opacity:0.6; *//*Firefox私有，透明度50%*//*    opacity:0.6;*//*其他，透明度50%*//* border-radius: 10px;  }
+.content .left .map .mapPhoto .textBg6{position: absolute; left:120px; top:350px;background: #fff; border:3px solid #02113c; padding:10px; filter:alpha(opacity=60); *//*IE滤镜，透明度50%*//*    -moz-opacity:0.6; *//*Firefox私有，透明度50%*//*    opacity:0.6;*//*其他，透明度50%*//* border-radius: 10px;  }
+.content .left .map .mapPhoto .textBg7{position: absolute; left:280px; top:330px;background: #fff; border:3px solid #02113c; padding:10px; filter:alpha(opacity=60); *//*IE滤镜，透明度50%*//*    -moz-opacity:0.6; *//*Firefox私有，透明度50%*//*    opacity:0.6;*//*其他，透明度50%*//* border-radius: 10px;  }
+.content .left .map .mapPhoto .textBg8{position: absolute; left:480px; top:200px;background: #fff; border:3px solid #02113c; padding:10px; filter:alpha(opacity=60); *//*IE滤镜，透明度50%*//*    -moz-opacity:0.6; *//*Firefox私有，透明度50%*//*    opacity:0.6;*//*其他，透明度50%*//* border-radius: 10px;  }
+.content .left .map .mapPhoto .textBg9{position: absolute; left:630px; top:300px;background: #fff; border:3px solid #02113c; padding:10px; filter:alpha(opacity=60); *//*IE滤镜，透明度50%*//*    -moz-opacity:0.6; *//*Firefox私有，透明度50%*//*    opacity:0.6;*//*其他，透明度50%*//* border-radius: 10px;  }
+.content .left .map .mapPhoto .textBg10{position: absolute; left:30px; top:440px;background: #fff; border:3px solid #02113c; padding:10px; filter:alpha(opacity=60); *//*IE滤镜，透明度50%*//*    -moz-opacity:0.6; *//*Firefox私有，透明度50%*//*    opacity:0.6;*//*其他，透明度50%*//* border-radius: 10px;  }
+.content .left .map .mapPhoto .textBg11{position: absolute; left:160px; top:430px;background: #fff; border:3px solid #02113c; padding:10px; filter:alpha(opacity=60); *//*IE滤镜，透明度50%*//*    -moz-opacity:0.6; *//*Firefox私有，透明度50%*//*    opacity:0.6;*//*其他，透明度50%*//* border-radius: 10px;  }
+.content .left .map .mapPhoto .textBg12{position: absolute; left:280px; top:420px;background: #fff; border:3px solid #02113c; padding:10px; filter:alpha(opacity=60); *//*IE滤镜，透明度50%*//*    -moz-opacity:0.6; *//*Firefox私有，透明度50%*//*    opacity:0.6;*//*其他，透明度50%*//* border-radius: 10px;  }
+.content .left .map .mapPhoto .textBg13{position: absolute; left:400px; top:550px;background: #fff; border:3px solid #02113c; padding:10px; filter:alpha(opacity=60); *//*IE滤镜，透明度50%*//*    -moz-opacity:0.6; *//*Firefox私有，透明度50%*//*    opacity:0.6;*//*其他，透明度50%*//* border-radius: 10px;  }
+.content .left .map .mapPhoto .textBg14{position: absolute; left:520px; top:500px;background: #fff; border:3px solid #02113c; padding:10px; filter:alpha(opacity=60); *//*IE滤镜，透明度50%*//*    -moz-opacity:0.6; *//*Firefox私有，透明度50%*//*    opacity:0.6;*//*其他，透明度50%*//* border-radius: 10px;  }
+.content .left .map .mapPhoto .textBg15{position: absolute; left:520px; top:400px;background: #fff; border:3px solid #02113c; padding:10px; filter:alpha(opacity=60); *//*IE滤镜，透明度50%*//*    -moz-opacity:0.6; *//*Firefox私有，透明度50%*//*    opacity:0.6;*//*其他，透明度50%*//* border-radius: 10px;  }
+*/
+
+.content .left .map .mapPhoto .jt{margin-bottom: -32px; margin-left:50px;}
+.content .right{ width: 45%; color: #005fff; padding-top:20px;height: 100%; }
+.content .right .rightBorder{ width:100%; }
+.content .right .rightBorder dl{ float:left; width: 48%; border: 1px solid #022881; margin-right: 10px;height:20%}
+.content .right .rightBorder dt{ color:#fff; background:#0A1B67; padding:5px 0; font-weight:500; font-size:15px;  text-align: center;}
+.content .right .rightBorder dd{ height: 180px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

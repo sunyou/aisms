@@ -1,0 +1,93 @@
+/* CSS Document */
+body,html{ background-attachment:fixed;  background-repeat:no-repeat;background-image:url("../images/bg.jpg");}
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend{margin:0;padding:0;}
+body,button,input,select,textarea{font: 12px/1.5 arial,"Microsoft Yahei","黑体","Hiragino Sans GB",sans-serif;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+ul,ol{list-style:none;}
+a{ color: #666; text-decoration: none; }
+a:hover { color: #f60;  }
+.wrap100 { width: 100%; margin: 0 auto;  }
+.wrap { width: 1200px; margin: 0 auto;   }
+img { border:0;}
+.fl { float:left;}
+.fr { float:right;}
+.cl{ clear:both;}
+
+.m-t-10{ margin-top:10px;}
+.m-t-15{ margin-top:15px;}
+.m-t-20{ margin-top:20px;}
+.m-r-20{ margin-right:24px;}
+.m-l-20{ margin-left:20px;}
+.m-t-30{ margin-top:30px;}
+.m-t-62{ margin-top:45px;}
+.m-t-68{ margin-top:50px;}
+.m-t-100{ margin-top:100px;}
+.m-t-110{ margin-top:110px;}
+.m-t-120{ margin-top:80px;}
+.m-t-130{ margin-top:130px;}
+.m-t-140{ margin-top:100px;}
+.m-t-150{ margin-top:150px;}
+.m-t-160{ margin-top:160px;}
+.m-t-170{ margin-top:170px;}
+.m-t-180{ margin-top:180px;}
+.m-t-190{ margin-top:140px;}
+.m-b-100{ margin-bottom:100px;}
+.m-l-10{ margin-left: 10px;}
+.p-t-150{ padding-top:150px;}
+.p-b-100{ padding-bottom:100px;}
+.p-b-70{ padding-bottom:70px;}
+
+.w-b-3{ width:3%;}
+.w-b-5{ width:5%;}
+.w-b-10{ width:10%;}
+.w-b-20{ width:20%;}
+.w-b-23{ width:23%;}
+.w-b-24{ width:24%;}
+.w-b-28{ width:28%;}
+.w-b-30{ width:30%;}
+.w-b-35{ width:35%;}
+.w-b-32{ width:32%;}
+.w-b-40{ width:40%;}
+.w-b-50{ width:50%;}
+.w-b-55{ width:55%;}
+.w-b-60{ width:60%;}
+.w-b-65{ width:65%;}
+.w-b-70{ width:70%;}
+.w-b-80{ width:80%;}
+.w-b-90{ width:90%;}
+.w-b-100{ width:100%;}
+.h-50{height: 50px;}
+.h-60{height: 60px;}
+.h-70{height: 70px;}
+.h-80{height: 80px;}
+.h-90{height: 90px;}
+.h-100{height: 100px;}
+.h-110{height: 110px;}
+.h-120{height: 120px;}
+.hidden{ display: none; height: 0; width: 0;font-size: 0;}
+
+.division{ border-top:1px solid #ddd; border-bottom: 1px solid #ddd; height: 15px; background: #eee;}
+.xx-division{ border-top:1px dashed #ddd; padding:5px 0;}
+.loading{ font-size: 14px; text-align: center;  padding:20px 0;}
+
+.b-c-orage{ background: #f6ae1e;}
+.b-c-violet{ background: #9666c2;}
+.b-c-green{ background: #6cbd45;}
+.b-c-blue{ background: #1ea7f6;}
+.b-c-red{ background: #e75350;}
+.b-c-lightGreen{ background: #f7fff3;}
+.b-c-lightOrage{ background: #fdf8ef;}
+.b-c-lightBlue{ background: #ebfbff;}
+
+.t-blue{ color: #6292d6;}
+.t-red{ color: #f00;}
+.t-orange{ color: #f60;}
+.t-grey{ color: #999;}
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+
+/*登录页图标*/
+.login_icon1{width:22px; height:22px; background:url(../images/food_user.png) no-repeat; display:block;}
+.login_icon2{width:22px; height:22px; background:url(../images/food_password.png) no-repeat;  display:block;}
+.login_icon{ background:url(../images/l-icon2.png) no-repeat; width:20px; height:16px; display:block; margin:6px 0 0 20px; float:left;}
+.reset_icon{ background:url(../images/l-icon1.png) no-repeat; width:21px; height:21px; display:block; margin:3px 0 0 20px; float:left;}
+.prompt_icon{ background:url(../images/marking1.gif) no-repeat; width:18px; height:17px; display:block; float:left; margin-top:6px; margin-right:10px; }
+
+
+
+.h-icon1{ background-image:url(../images/t_icon1.png); background-repeat:no-repeat; line-height: 30px; height:30px; display:block; float:left; text-indent:30px; background-position:0 ;  }
+.h-icon2{ background-image:url(../images/t_icon2.png); background-repeat:no-repeat; line-height: 30px; height:30px; display:block; float:left; text-indent:30px; background-position:0 ;  }
+.h-icon3{ background-image:url(../images/t_icon3.png); background-repeat:no-repeat; line-height: 30px; height:30px; display:block; float:left; text-indent:30px; background-position:0 ;  }
+
+.time-icon{ background-image:url(../images/icon1.png); background-repeat:no-repeat; line-height: 30px; height:30px; display: inline-block;   background-position:0  0;  width: 30px; }
+.home-icon{ background-image:url(../images/home-icon.png); background-repeat:no-repeat; line-height: 30px; height:30px; display: inline-block; float: left;   background-position:10px  8px;  width: 35px; }
+
+.t_icon1{ background-image:url(../images/t_icon4.png); background-repeat:no-repeat; height:76px; display: inline-block;   background-position:0  20px;  width: 80px; float: left; }
+.t_icon2{ background-image:url(../images/t_icon5.png); background-repeat:no-repeat; height:76px; display: inline-block;   background-position:0  20px;  width: 80px; float: left;}
+.t_icon3{ background-image:url(../images/t_icon6.png); background-repeat:no-repeat; height:76px; display: inline-block;   background-position:0  20px;  width: 80px; float: left; }
+
+
+
+
+
+
+
+
+
+
+
+

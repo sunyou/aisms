@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*form表单 begin*/
+.inputW150{ width:150px; height:30px; line-height:30px; background:url(../images/inputBg.jpg) repeat-x; border-top:1px solid #c6ccda; border-left:1px solid #c6ccda; border-right:1px solid #dfe4f1; border-bottom:1px solid #dfe4f1; text-indent:10px; font-size:16px; color:#f60; font-weight:700;  }
+.inputW160{ width:160px; height:30px; line-height:30px; background:url(../images/inputBg.jpg) repeat-x; border-top:1px solid #c6ccda; border-left:1px solid #c6ccda; border-right:1px solid #dfe4f1; border-bottom:1px solid #dfe4f1; text-indent:10px; font-size:14px; color:#427fb8; font-weight:500;  }
+.inputW120{ width:120px; height:30px; line-height:30px; background:url(../images/inputBg.jpg) repeat-x; border-top:1px solid #c6ccda; border-left:1px solid #c6ccda; border-right:1px solid #dfe4f1; border-bottom:1px solid #dfe4f1; text-indent:10px; font-size:14px; color:#427fb8; font-weight:500;  }
+.inputW200{ width:200px; height:30px; line-height:30px; background:url(../images/inputBg.jpg) repeat-x; border-top:1px solid #c6ccda; border-left:1px solid #c6ccda; border-right:1px solid #dfe4f1; border-bottom:1px solid #dfe4f1; text-indent:10px; font-size:14px; color:#427fb8; font-weight:500;  }
+.inputW300{ width:300px; height:30px; line-height:30px; background:url(../images/inputBg.jpg) repeat-x; border-top:1px solid #c6ccda; border-left:1px solid #c6ccda; border-right:1px solid #dfe4f1; border-bottom:1px solid #dfe4f1; text-indent:10px; font-size:14px; color:#427fb8; font-weight:500;  }
+.inputW400{ width:400px; height:30px; line-height:30px; background:url(../images/inputBg.jpg) repeat-x; border-top:1px solid #c6ccda; border-left:1px solid #c6ccda; border-right:1px solid #dfe4f1; border-bottom:1px solid #dfe4f1; text-indent:10px; font-size:14px; color:#427fb8; font-weight:500;  }
+.textareaH200{ width:400px; height:80px; line-height:30px; border-top:1px solid #c6ccda; border-left:1px solid #c6ccda; border-right:1px solid #dfe4f1; border-bottom:1px solid #dfe4f1; text-indent:10px; font-size:14px; color:#427fb8; font-weight:500;}
+
+.select{  height:30px; line-height:30px; background:url(../images/inputBg.jpg) repeat-x; border-top:1px solid #c6ccda; border-left:1px solid #c6ccda; border-right:1px solid #dfe4f1; border-bottom:1px solid #dfe4f1;font-size:14px; color:#427fb8; font-weight:500;  }
+.tmshop{margin-top:20px;padding-bottom:80px;  }
+.tmshop h1{ background:#339ae3; border-top-left-radius:10px; border-top-right-radius:10px; height:34px; color:#fff; font-size:16px; text-indent:10px; line-height:34px;}
+.tmshop .r_list{ width:95%; margin:0px auto;}
+/*form表单 over*/
+
+/* 表单 begin*/
+.listTable3{ margin:auto; background:#fff; width:100%; border-collapse: separate; border-left: 1px solid #eee; border-top: 1px solid #eee; overflow-x: auto; clear:both; font-size:14px; }
+.listTable3 th{border-bottom: 1px solid #eee; border-right: 1px solid #eee;height: 18px;padding: 5px 3px;text-align: center; background:#f8f8f8; color:#777; font-weight:500; border-bottom: 1px solid #eee; }
+.listTable3 td{border-bottom: 1px solid #eee; border-right: 1px solid #eee; line-height: 22px; padding: 5px 3px;vertical-align: top; color:#444;}
+.listTable3 td span{ color:#F00; padding-left:18%;}
+.listTable3 td.txtlink{ text-decoration:underline;}
+.listTable3 td select{ height: 30px;}
+.listTable3 th font{ color:#F00;}
+.listTable3 th.l{text-align: left;}
+.listTable3 th.c{text-align: center;}
+.listTable3 td.c{text-align: center;}
+.listTable3 td.r{text-align: right;}
+.listTable3 th.r{text-align: right;}
+.listTable3 strong{ color:#f00;}
+.listTable3 button{ background:#339ae3; padding:3px 18px;  color:#fff; font-size:16px; border-radius:3px; display:inline-block; border:none; cursor:pointer; outline:none; margin-right:15px; }
+.listTable3 button:hover{ background:#258dd7;}
+.listTable3 button.current{ background:#999;}
+
+
+
+
+
+
+/*弹出框*/
+.box_w600{width:600px;}
+.box_floatBox{ margin:0 auto; border-radius:5px; -webkit-border-radius:5px; overflow:hidden; border:1px solid #ddd; box-shadow:1px 1px 2px 2px #eee; -webkit-box-shadow:1px 1px 2px 2px #dedede;  -moz-box-shadow:1px 1px 2px 2px #dedede; padding-bottom:20px; background:#fff;}
+.box_floatTitleBg{ background:#339ae3; height:35px; line-height:35px; color:#fff; text-indent:10px;  }
+.box_floatTitleBg h2{ font-size:15px; }
+.box_floatTitleBg .box_close{ margin-top:6px; margin-right:10px;}
+.box_floatContent{ margin:10px auto; width:95%; font-size:14px; color:#444; line-height:200%; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

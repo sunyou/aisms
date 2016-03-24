@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+  <sysbo datasource="sms" name="QryMedicalSupAccount" mainattr="ACCOUNT_ID">
+    <mapingenty type="query">select a.*,b.org_name from MEDICAL_SUP_ACCOUNT a ,MEDICAL_SUP_ORG b where a.org_id=b.org_id and a.data_status&lt;&gt;1</mapingenty>
+    <datafilter />
+    <attrlist>
+      <attr floatlength="0" name="ACCOUNT_ID" maxlength="36" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">ACCOUNT_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ACCOUNT_CODE" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">ACCOUNT_CODE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ACCOUNT_NAME" maxlength="64" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">ACCOUNT_NAME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ACCOUNT_PWD" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">ACCOUNT_PWD</mapingcol>
+      </attr>
+      <attr floatlength="0" name="STATUS" maxlength="2" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">STATUS</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ORG_ID" maxlength="16" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">ORG_ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_STAFF" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">CREATE_STAFF</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CREATE_TIME" maxlength="7" datatype="DateTime" type="COL">
+        <mapingcol datatype="DATE">CREATE_TIME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="UPDATE_STAFF" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">UPDATE_STAFF</mapingcol>
+      </attr>
+      <attr floatlength="0" name="UPDATE_TIME" maxlength="7" datatype="DateTime" type="COL">
+        <mapingcol datatype="DATE">UPDATE_TIME</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DATA_STATUS" maxlength="2" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">DATA_STATUS</mapingcol>
+      </attr>
+      <attr floatlength="0" name="REMARK" maxlength="256" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">REMARK</mapingcol>
+      </attr>
+      <attr floatlength="0" name="ORG_NAME" maxlength="32" datatype="String" type="COL">
+        <mapingcol datatype="VARCHAR2">ORG_NAME</mapingcol>
+      </attr>
+    </attrlist>
+    <relationlist />
+    <oplist />
+  </sysbo>
+</sysbolist>

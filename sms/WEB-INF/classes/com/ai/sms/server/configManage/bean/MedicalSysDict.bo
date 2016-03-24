@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sysbolist>
+  <sysbo datasource="sms" name="MedicalSysDict" mainattr="ID">
+    <mapingenty type="table">MEDICAL_SYS_DICT</mapingenty>
+    <datafilter />
+    <attrlist>
+      <attr floatlength="0" name="ID" maxlength="32" datatype="String" type="PK" remark="主键">
+        <mapingcol datatype="VARCHAR2">ID</mapingcol>
+      </attr>
+      <attr floatlength="0" name="DICT_TYPE" maxlength="16" datatype="String" type="COL" remark="字典类型">
+        <mapingcol datatype="VARCHAR2">DICT_TYPE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="CODE" maxlength="32" datatype="String" type="COL" remark="字典code">
+        <mapingcol datatype="VARCHAR2">CODE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="VALUE" maxlength="32" datatype="String" type="COL" remark="字典value">
+        <mapingcol datatype="VARCHAR2">VALUE</mapingcol>
+      </attr>
+      <attr floatlength="0" name="IS_ORDER" maxlength="8" datatype="Long" type="COL" remark="字典顺序">
+        <mapingcol datatype="NUMBER">IS_ORDER</mapingcol>
+      </attr>
+      <attr floatlength="0" name="REMARK" maxlength="256" datatype="String" type="COL" remark="描述">
+        <mapingcol datatype="VARCHAR2">REMARK</mapingcol>
+      </attr>
+    </attrlist>
+    <relationlist />
+    <oplist />
+  </sysbo>
+</sysbolist>
